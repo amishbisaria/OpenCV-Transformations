@@ -1,6 +1,3 @@
-//Name: Amish Bisaria
-//Class: CS4391.0W1
-
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc.hpp>
