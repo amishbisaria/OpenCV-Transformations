@@ -131,20 +131,3 @@ int main()
 	waitKey(0);
 
 }
-
-/* ANSWER TO QUESTION 3
-The output from (d) and (e) of part 2 are not the same.
-
-The transformation matrices are different.
-Translating and then rotating would give:
-[sqrt(2)/2,-sqrt(2)/2,100]
-[sqrt(2)/2,sqrt(2)/2,50]
-[0,0,1]
-
-Rotating and then translating would give:
-[sqrt(2)/2,-sqrt(2)/2,25*sqrt(2)]
-[sqrt(2)/2,sqrt(2)/2,75*sqrt(2)]
-[0,0,1]
-
-This phenomenon occurs because order matters in matrix multiplication.
-*/
